@@ -1,0 +1,138 @@
+/*!
+ *  Font Awesome 5.15.0 by @yazid_tech - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+*/
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', verdana, sans-serif;
+    background-image: url(../imgs/background.jpg);
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #94e9c1;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.main{
+    width: 100%;
+    height: 768px;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    background-color: #10003d;
+    box-shadow: 2px 2px 20px rgba( 0, 0, 0, 0.514);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    margin-left: 150px;
+    padding: 2px;
+}
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0 10px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #80e3b5;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover{
+    border-radius: 2px;
+    background-color: #5cfdb2;
+    color: #10003d;
+    box-shadow: 2px 2px 20px rgba( 1, 141, 83, 0.514);
+}
+nav .menu-btn{
+    display: none;
+}
+.menu-1 > .menu-content{
+    font-family: sans-serif,arial;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgba(0, 191, 255, 0.753);
+}
+.menu-1 > .menu-content > a {
+    text-decoration: none;
+}
+a:hover{
+    color: #0252a8;
+}
+/******************* HEADER-CONTENT ******************/
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+.header-img{
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+.header-img img{
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: contain;
+}
+.header-text{
+    width: 500px;
+    margin: 20px;
+}
+.header-text h1{
+    font-size: 3.6rem;
+    line-height: 55px;
+    color: #b1d7da;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin: 0px;
+}
+.header-text span{
+    font-size: 2rem;
+    line-height: 55px;
+    color: rgb(1, 128, 255);
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-text p{
+    font-size: 1.5rem;
+    color: rgb(235, 235, 235) ;
+    letter-spacing: 3px;
+}
+/************** SECTION 02 ***************/
+.second-sec{
+    background-size: 1000px;
+}
